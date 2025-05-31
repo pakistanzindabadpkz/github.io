@@ -1,41 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pakistan Zindabad Token (PKZ)</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <div class="container">
-    <img src="logo.svg" alt="PKZ Logo" class="logo" />
-
-    <h1>Pakistan Zindabad Token (PKZ)</h1>
-    <p>Empowering digital charity and community strength on BNB Smart Chain.</p>
-
-    <div class="contract-box">
-      <strong>Contract Address:</strong>
-      <div class="address-line">
-        <input id="contract" type="text" value="0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC" readonly />
-        <button onclick="copyAddress()">📋 Copy</button>
-      </div>
-    </div>
-
-    <div class="whitepaper-section">
-      <h3>Whitepaper</h3>
-      <p>Coming soon...</p>
-    </div>
-  </div>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Pakistan Zindabad (PKZ) Token
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <img alt="PKZ Logo" class="logo" src="logo.svg"/>
+   <h1>
+    Pakistan Zindabad (PKZ)
+   </h1>
+   <p>
+    The Official Token for Unity and Welfare
+   </p>
+  </header>
+  <main>
+   <section>
+    <h2>
+     About PKZ
+    </h2>
+    <p>
+     PKZ is a Binance Smart Chain token aimed at supporting charitable initiatives in Pakistan and fostering a sense of national pride and empowerment through blockchain technology.
+    </p>
+   </section>
+   <section>
+    <h2>
+     Tokenomics
+    </h2>
+    <ul>
+     <li>
+      Total Supply: 1,000,000,000 PKZ
+     </li>
+     <li>
+      Anti-Whale Limit: 20% max per wallet
+     </li>
+     <li>
+      Charity + Marketing Fee: 0.01%
+     </li>
+     <li>
+      Contract Address:
+      <strong>
+       0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC
+      </strong>
+     </li>
+    </ul>
+   </section>
+   <section>
+    <h2>
+     Useful Links
+    </h2>
+    <ul>
+     <li>
+      <a href="https://bscscan.com/token/0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC" target="_blank">
+       View on BscScan
+      </a>
+     </li>
+     <li>
+      <a href="https://pancakeswap.finance" target="_blank">
+       Trade on PancakeSwap
+      </a>
+     </li>
+     <li>
+      <a href="https://github.com/pakistanzindabadpkz" target="_blank">
+       GitHub Repository
+      </a>
+     </li>
+    </ul>
+   </section>
+  </main>
+  <footer>
+   <p>
+    © 2025 Pakistan Zindabad Token. All rights reserved.
+   </p>
+  </footer>
+  <section>
+   <h2>
+    Contract Address
+   </h2>
+   <input id="contractAddress" readonly="" style="width: 80%; padding: 8px;" type="text" value="0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"/>
+   <button onclick="copyContract()">
+    📋 Copy
+   </button>
+  </section>
   <script>
-    function copyAddress() {
-      const address = document.getElementById("contract");
-      address.select();
-      address.setSelectionRange(0, 99999); 
-      navigator.clipboard.writeText(address.value);
-      alert("Contract address copied to clipboard!");
-    }
+   function copyContract() {
+    var copyText = document.getElementById("contractAddress");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+    navigator.clipboard.writeText(copyText.value);
+    alert("Contract address copied: " + copyText.value);
+}
   </script>
-</body>
+  <section>
+   <h2>
+    Whitepaper
+   </h2>
+   <p>
+    <a href="Pakistan_Zindabad_Whitepaper.pdf" target="_blank">
+     📄 Download PKZ Whitepaper
+    </a>
+   </p>
+  </section>
+  <section>
+   <h2>
+    Contact &amp; Socials
+   </h2>
+   <p>
+    Email:
+    <strong>
+     infopakistanzindabadpkz@gmail.com
+    </strong>
+   </p>
+   <p>
+    Twitter:
+    <a href="https://twitter.com/pakistanzindabadpkz" target="_blank">
+     @pakistanzindabadpkz
+    </a>
+   </p>
+   <p>
+    X.com Page:
+    <a href="https://x.com/pakistanzindabadpkz" target="_blank">
+     x.com/pakistanzindabadpkz
+    </a>
+   </p>
+  </section>
+ </body>
 </html>
