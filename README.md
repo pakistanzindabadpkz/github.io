@@ -1,6 +1,6 @@
 # github.io
 Official website for the PKZ (Pakistan Zindabad) token
-# 🇵🇰 Pakistan Zindabad (PKZ) Token
+# Pakistan Zindabad (PKZ) Token
 
 **Founder:** Khan Arbaz Ali  
 **Official Contact:** infopakistanzindabadpkz@gmail.com
