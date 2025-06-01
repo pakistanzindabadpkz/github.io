@@ -36,7 +36,7 @@ Official website for the PKZ (Pakistan Zindabad) token
 
 ## 📄 Resources
 
-- 🌍 Website: [pakistanzindabadpkz.github.io](https://pakistanzindabadpkz.github.io)
+- 🌍 Website: https://pakistanzindabadpkz.github.io/github.io/ 
 - 📑 Whitepaper: [View PDF](https://github.com/pakistanzindabadpkz/github.io/blob/main/whitepaper.pdf?raw=true)
 - 🔎 BscScan: [View Contract](https://bscscan.com/token/0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC)
 
